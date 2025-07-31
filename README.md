@@ -1,6 +1,5 @@
 # 🌟 Mehiret's Modern Blog Template
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://yourusername.github.io/Blog_UI_Template)
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://pages.github.com/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -8,9 +7,17 @@
 
 > **My first web design project!** A clean, responsive, and modern blog template created by **Mehiret Abdissa** as part of my web development learning journey. Built with vanilla HTML, CSS, and JavaScript using AI assistance.
 
-## 🚀 Live Demo
+## 🚀 Getting Started
 
-**[View Live Site →](https://yourusername.github.io/Blog_UI_Template)**
+### Option 1: View Locally
+1. Download or clone this repository
+2. Open `index.html` in your browser
+3. Or run a local server: `python3 -m http.server 8000`
+
+### Option 2: Publish to GitHub Pages
+1. Fork this repository or create your own
+2. Enable GitHub Pages in repository settings
+3. Your site will be live at: `https://yourusername.github.io/repository-name`
 
 ## 📖 About This Project
 
