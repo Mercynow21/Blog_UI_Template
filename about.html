@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Mehiret Abdissa</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1><a href="index.html">ModernBlog</a></h1>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="about.html" class="nav-link active">About</a></li>
+                        <li><a href="#" class="nav-link">Categories</a></li>
+                        <li><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <div class="search-box">
+                        <input type="text" placeholder="Search posts..." class="search-input">
+                        <button class="search-btn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.35-4.35"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <button class="theme-toggle" id="themeToggle">
+                        <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                        <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <div class="about-layout">
+                <!-- About Content -->
+                <article class="about-article">
+                    <header class="about-header">
+                        <div class="breadcrumb">
+                            <a href="index.html" class="breadcrumb-link">Home</a>
+                            <span class="breadcrumb-separator">/</span>
+                            <span class="breadcrumb-current">About Me</span>
+                        </div>
+                        
+                        <h1 class="about-title">About Me</h1>
+                    </header>
+
+                    <!-- Profile Section -->
+                    <div class="profile-section">
+                        <div class="profile-image">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Mehiret Abdissa - Web Designer" loading="lazy">
+                        </div>
+                        <div class="profile-content">
+                            <div class="text-block">
+                                <p class="lead">Hi, I'm <strong>Mehiret Abdissa</strong> — a passionate beginner web designer and aspiring front-end developer.</p>
+                            </div>
+
+                            <div class="text-block">
+                                <p>This blog is my <strong>first design project</strong>, and I created it with the help of AI tools. I'm exploring the world of web development, UI design, and technology — one page at a time.</p>
+                            </div>
+
+                            <div class="text-block">
+                                <p>I believe in <strong>learning by building</strong>, and this template reflects my commitment to turning ideas into real interfaces. I want to create digital experiences that are simple, clean, and accessible for everyone.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills & Learning Section -->
+                    <div class="about-content">
+                        <div class="text-block">
+                            <h2>💻 What I'm Learning</h2>
+                            <ul class="learning-list">
+                                <li>HTML, CSS & Tailwind (Windsurf framework)</li>
+                                <li>Responsive design and layout systems</li>
+                                <li>Working with UI components</li>
+                                <li>Using AI and tools to speed up design workflows</li>
+                            </ul>
+                        </div>
+
+                        <div class="text-block">
+                            <h2>🌱 My Goals</h2>
+                            <ul class="goals-list">
+                                <li>Master AI-assisted development and prompt engineering</li>
+                                <li>Learn React and turn this static template into a dynamic blog</li>
+                                <li>Explore headless CMS tools like Sanity or Contentful</li>
+                                <li>Get a job as a prompt engineer by January 2026</li>
+                                <li>Build a portfolio showcasing AI-powered development projects</li>
+                            </ul>
+                        </div>
+
+                        <div class="text-block">
+                            <p>If you're a fellow beginner, designer, or just curious — I'd love to connect!</p>
+                        </div>
+
+                        <!-- Contact Section -->
+                        <div class="contact-section">
+                            <h3>Let's Connect</h3>
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                    <a href="mailto:mercyabdi7@gmail.com" class="contact-link">mercyabdi7@gmail.com</a>
+                                </div>
+                                <div class="contact-item">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                    <span class="contact-placeholder">GitHub coming soon...</span>
+                                </div>
+                                <div class="contact-item">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                    <span class="contact-placeholder">LinkedIn coming soon...</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Journey Timeline -->
+                        <div class="journey-section">
+                            <h3>My Learning Journey</h3>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <h4>Starting Out</h4>
+                                        <p>Beginning my web development journey with HTML, CSS, and design fundamentals.</p>
+                                        <span class="timeline-date">May 2025 - Present</span>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-marker"></div>
+                                    <div class="timeline-content">
+                                        <h4>First Project</h4>
+                                        <p>Created this blog template using AI tools and modern web technologies.</p>
+                                        <span class="timeline-date">May 2025 - Present</span>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-marker upcoming"></div>
+                                    <div class="timeline-content">
+                                        <h4>Next Steps</h4>
+                                        <p>To get a job as a prompt engineer and master AI-assisted development workflows.</p>
+                                        <span class="timeline-date">January 2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Sidebar -->
+                <aside class="about-sidebar">
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">Quick Facts</h3>
+                        <div class="facts-list">
+                            <div class="fact-item">
+                                <span class="fact-label">Location</span>
+                                <span class="fact-value">Learning Remotely</span>
+                            </div>
+                            <div class="fact-item">
+                                <span class="fact-label">Focus</span>
+                                <span class="fact-value">Frontend Development</span>
+                            </div>
+                            <div class="fact-item">
+                                <span class="fact-label">Tools</span>
+                                <span class="fact-value">HTML, CSS, AI</span>
+                            </div>
+                            <div class="fact-item">
+                                <span class="fact-label">Goal</span>
+                                <span class="fact-value">React Developer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">Current Learning</h3>
+                        <div class="learning-progress">
+                            <div class="progress-item">
+                                <span class="progress-label">HTML & CSS</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 70%"></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <span class="progress-label">Responsive Design</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 60%"></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <span class="progress-label">JavaScript</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 30%"></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <span class="progress-label">React</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 10%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h3 class="widget-title">Get in Touch</h3>
+                        <p class="widget-description">I'm always excited to connect with fellow learners and developers!</p>
+                        <a href="mailto:mercyabdi7@gmail.com" class="btn btn-primary">Send me an email</a>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">ModernBlog</h3>
+                    <p class="footer-description">A modern blog template created by Mehiret Abdissa as a learning project in web design and development.</p>
+                    <div class="social-links">
+                        <a href="mailto:mercyabdi7@gmail.com" class="social-link" aria-label="Email">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-section-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li><a href="about.html" class="footer-link">About</a></li>
+                        <li><a href="#" class="footer-link">Categories</a></li>
+                        <li><a href="#" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-section-title">Learning</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Web Development</a></li>
+                        <li><a href="#" class="footer-link">UI Design</a></li>
+                        <li><a href="#" class="footer-link">Frontend</a></li>
+                        <li><a href="#" class="footer-link">React</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2025 Mehiret Abdissa. Built with passion and AI assistance.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
